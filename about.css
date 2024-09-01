@@ -190,7 +190,7 @@ main{
 .slider-img1 {
     height: 200px;
     min-width: 300px;
-    background-image: url(../img/img1.jpg);
+    background-image: url(img1.jpg);
     background-size: cover;
     margin: 0px 50px;
     border-style: groove;
@@ -200,7 +200,7 @@ main{
 .slider-img2 {
     height: 200px;
     min-width: 300px;
-    background-image: url(../img/img2.jpg);
+    background-image: url(img2.jpg);
     background-size: cover;
     margin: 0px 50px;
     border-style: groove;
@@ -210,7 +210,7 @@ main{
 .slider-img3 {
     height: 200px;
     min-width: 300px;
-    background-image: url(../img/img5.jpg);
+    background-image: url(img5.jpg);
     background-size: cover;
     margin: 0px 50px;
     border-style: groove;
@@ -220,7 +220,7 @@ main{
 .slider-img4 {
     height: 200px;
     min-width: 300px;
-    background-image: url(../img/img6.jpg);
+    background-image: url(img6.jpg);
     background-size: cover;
     margin: 0px 50px;
     border-style: groove;
