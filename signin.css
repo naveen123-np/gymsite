@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.heading{
+    position: absolute;
+    left: 550px;
+    top: 50px;
+}
+.form {
+    height: 400px;
+    width: 600px;
+    border: 2px groove lightskyblue;
+    border-radius: 23px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    background-image: url('../img/itachi-uchiha.3840x2160.jpg');
+    background-size: cover;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+.form p{
+    margin-top: 30px;
+}
+#first {
+    margin-top: 10px;
+}
+
+#last {
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    color: rgb(38, 0, 255);
+    font-weight: 700;
+}
+
+.form label {
+    margin: 10px 5px;
+    padding-left: 10px;
+    
+}
+.form #last{
+    font-size: 1.2rem;
+}
+
+.form #name,#password,#DOB,#email {
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+.form #male,
+#female {
+    margin-right: 100px;
+    height: 20px;
+    width: 20px;
+}
+
+.form #agree {
+    height: 25x;
+    width: 25px;
+    border-radius: 23px;
+    margin-left: 10px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+@media (max-width:600px) {
+   
+   .heading{
+    left: 30px;
+    font-size: 16px;
+    top: 300px;
+    width: 500px;
+   } .form{
+        height: 350px;
+        width: 550px;
+        top: 400px;
+        left: 5px;
+    }
+    .form label{
+        font-size: 0.85rem;
+    }
+    #last{
+        width: 420px;
+    }
+}

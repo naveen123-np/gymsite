@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>naveen fitness</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="phone.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <span class="menu" onclick="showpanel()"><i class="ri-menu-line"></i></span>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./about/about.html">About</a></li>
+        <li><a href="./product/product.html">Products</a></li>
+      </ul>
+      <span class="logo">NAVEEN</span>
+    </nav>
+    <ul class="panel">
+      <span class="cross" onclick="hidepanel()"><i class="ri-close-large-line"></i></span>
+      <li><a href="#">Home</a></li>
+      <li><a href="./about/about.html">About</a></li>
+      <li><a href="./product/product.html">Products</a></li>
+
+    </ul>
+  </header>
+  <main class="container">
+    <div class="div1">
+      <div class="div1-head">
+        <h1 class="first-head">
+          GET YOURSELF <span>FIT</span> AND<span> HEALTHY </span>WITH NAVEEN
+          FITNESS
+        </h1>
+        <h1 class="second-head">GET READY FOR GYM</h1>
+          <button class="signin-button"><a href="signin.html">Sign in</a> <i class="ri-arrow-right-fill"></i></button>
+      </div>
+
+    </div>
+
+  </main>
+  <footer>
+    <div class="contact">
+      <ul>
+
+        <li><a href="https://www.discord.com">Discord <i class="ri-discord-fill"></i></a></li>
+        <li><a href="https://www.instagram.com">Instagram<i class="ri-instagram-line"></i></a></li>
+        <li><a href="https://www.linkedin.com">Linkedin <i class="ri-linkedin-fill"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+    function showpanel() {
+      const panel = document.querySelector(".panel")
+      panel.style.display = "flex";
+      const menu = document.querySelector(".menu");
+      menu.style.visibility="hidden";
+    }
+    function hidepanel(){
+      const panel = document.querySelector(".panel")
+      panel.style.display = "none";
+      const menu = document.querySelector(".menu");
+      menu.style.visibility="visible";
+    }
+  </script>
+</body>
+
+</html>

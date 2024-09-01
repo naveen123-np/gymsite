@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="card.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+          <span class="menu" onclick="showpanel()"><i class="ri-menu-line"></i></span>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="#">Products</a></li>
+          </ul>
+          <span class="logo">NAVEEN</span>
+        </nav>
+        <ul class="panel">
+          <span class="cross" onclick="hidepanel()"><i class="ri-close-large-line"></i></span>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about/about.html">About</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+      </header>
+    <main>
+    <h1 class="head">
+        PRODUCTS AND SUPPLEMENTS 
+    </h1>
+    <div class="card-container">
+
+    </div>
+</main>
+    <script src="productcard.js"></script>
+    <script type="module" src='script.js'></script>
+    <script src="event.js"></script>
+    <script>
+        function showpanel() {
+          const panel = document.querySelector(".panel")
+          panel.style.display = "flex";
+          const menu = document.querySelector(".menu");
+          menu.style.visibility="hidden";
+        }
+        function hidepanel(){
+          const panel = document.querySelector(".panel")
+          panel.style.display = "none";
+          const menu = document.querySelector(".menu");
+          menu.style.visibility="visible";
+          
+        }
+      </script>
+</body>
+
+</html>

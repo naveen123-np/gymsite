@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Roboto Slab", serif;
+}
+
+
+/* ***************************************** navbar css *************************************** */
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    position: fixed;
+    z-index: 2;
+    padding: 0px 20px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.menu{
+    font-size: 23px;
+}
+
+
+.panel{
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    border: 2px groove black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: none;
+}
+.panel li{
+    list-style-type: none;
+}
+.panel li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+/* *****************div2*************** */
+main{
+    height: calc(100% - 80px);
+    position: relative;
+    top: 80px;
+}
+.head{
+    text-align: center;
+}
+.div2 {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2-content {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.div2-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 400px;
+    margin-top: 10px;
+}
+
+.div2-content h1 {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 10px;
+  
+}
+
+.img img {
+    height: 100%;
+    width: 90%;
+    border-style: groove;
+    border-radius: 23px;
+    box-shadow: 5px 5px 25px;
+}
+
+.div3 {
+    min-height: 300px;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+   
+}
+
+.div3-img {
+    display: flex;
+    height: 60%;
+    width: 40%;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3-img img {
+    height: 100%;
+    width: 35%;
+    border-radius: 50%;
+    border-style: groove;
+    box-shadow: -5px 5px 25px;
+}
+
+.div3-content {
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.div3-content h1 {
+    margin-top: 10px;
+}
+
+.div3-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 400px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    /* color: #2DB84B; */
+}
+
+.signin {
+    display: none;
+}
+
+.slider {
+    height: 250px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+}
+
+.slider-img1 {
+    height: 200px;
+    min-width: 300px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    margin: 0px 50px;
+    border-style: groove;
+    border-radius: 23px;
+}
+
+.slider-img2 {
+    height: 200px;
+    min-width: 300px;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    margin: 0px 50px;
+    border-style: groove;
+    border-radius: 23px;
+}
+
+.slider-img3 {
+    height: 200px;
+    min-width: 300px;
+    background-image: url(../img/img5.jpg);
+    background-size: cover;
+    margin: 0px 50px;
+    border-style: groove;
+    border-radius: 23px;
+}
+
+.slider-img4 {
+    height: 200px;
+    min-width: 300px;
+    background-image: url(../img/img6.jpg);
+    background-size: cover;
+    margin: 0px 50px;
+    border-style: groove;
+    border-radius: 23px;
+}
+/* ****************************** phone css ************************** */
+@media (max-width:600px){
+    .navbar ul {
+        display: none;
+    }
+    .div2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .div2-content {
+        height: 150px;
+        width: 90vw;
+    }
+
+    .div2-content p {
+        font-size: 10px;
+    }
+
+    .img {
+        height: 150px;
+        align-items: center;
+    }
+
+    .img img {
+        border-style: groove;
+
+    }
+
+    .div3 {
+        flex-direction: column;
+       
+    }
+
+    .div3-content {
+        height: 150px;
+        width: 90%;
+        
+    }
+    .div3-content p{
+        font-size: 10px;
+    }
+    .div3-img{
+        height: 200px;
+        width: 80vw;
+        margin: auto;
+    }
+    .div3-img img {
+        width: 45%;
+    }
+    .navbar i:hover .nav-content ul{
+        display:block
+        
+    }
+    .form{
+        display: none;
+    }
+    .signin{
+        height: 100%;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px
+    }
+    .signin button {
+        height: 60px;
+        width: 150px;
+        font-size: 1rem;
+        background-color: transparent;
+    }
+    .contact ul{
+        font-size: 1rem;
+        gap: 20px;
+    }
+    .contact i{
+        font-size: 23px;
+    }
+    .silder-img1,.slider-img2,.slider-img3,.slider-img4{
+        height: 200px;
+        width: 300px;
+
+    }
+}

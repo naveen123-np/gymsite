@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Slab", serif;
+}
+@media (max-width:600px) {
+    .navbar ul {
+        display: none;
+    }
+  
+    .nav-content i {
+        font-size: 6vw;
+    }
+
+    .nav-button button {
+        font-size: 0.85rem;
+        height: 25px;
+        width: 70px;
+    }
+
+    .container h1 {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .first-head {
+        padding-left: 10px;
+    }
+
+    .second-head {
+        width: 100px;
+        padding-right: 60px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+    }
+
+}
