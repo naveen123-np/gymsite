@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "IPHONE 15 PRO",
-        "productimage":"../img/iphone.jpeg",
+        "productimage":"iphone.jpeg",
         "description": "32px camera with LED display . Best Security Certified",
         "stocks": "50",
         "rate": "$400",
@@ -11,7 +11,7 @@
     {
         "id": "2",
         "name": "ROLEX WATCH",
-        "productimage": "../img/television_160593200.jpg",
+        "productimage": "television_160593200.jpg",
         "description": "Premium Glass with sliver sticks fashionable . Best Quality Certified",
         "stocks": "10",
         "rate": "$2400",
@@ -20,7 +20,7 @@
     {
         "id": "3",
         "name": "REFRIGERATOR",
-        "productimage": "../img/refrigerator.jpeg",
+        "productimage": "refrigerator.jpeg",
         "description": "Big space low Voltage consumer . Best Quality Certified",
         "stocks": "30",
         "rate": "$220",
@@ -29,7 +29,7 @@
     {
         "id": "4",
         "name": "HEADE-PHONES",
-        "productimage": "../img/headphones.jpeg",
+        "productimage": "headphones.jpeg",
         "description": "Clean voice and Noice Cancellation . Best Quality Certified",
         "stocks": "100",
         "rate": "$400",
@@ -38,7 +38,7 @@
     {
         "id": "5",
         "name": "ASUS VIVOBOOK",
-        "productimage": "../img/asuslaptop.jpeg",
+        "productimage": "asuslaptop.jpeg",
         "description": "16GB Ram 526 GB SSD with LED display . Best Security Certified",
         "stocks": "20",
         "rate": "$360",
