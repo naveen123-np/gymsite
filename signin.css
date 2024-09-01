@@ -22,7 +22,7 @@ body{
     font-size: 1.5rem;
     text-align: center;
     margin-top: 10px;
-    background-image: url('../img/itachi-uchiha.3840x2160.jpg');
+    background-image: url('itachi-uchiha.3840x2160.jpg');
     background-size: cover;
     position: absolute;
     left: 500px;
